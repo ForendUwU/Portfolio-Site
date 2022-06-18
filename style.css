@@ -2,6 +2,8 @@ body
 {
 	margin: 0 0 0 0;
 	font-family: Ubuntu;
+
+	scroll-behavior: smooth;
 }
 
 .UpperZone
@@ -11,7 +13,7 @@ body
 
 .AvaWithText
 {
-	background-color: #dfab45;
+	background-color: #e8ad38;
 	height: 40%;
 	width: 55%;
 	word-wrap: break-word;
@@ -132,4 +134,93 @@ body
 .PortfolioContent
 {
 	margin-left: 10%;
+}
+
+.numbers
+{
+	display: flex;
+	justify-content: space-around;
+	gap: 15px;
+
+	margin: 0 10%;
+}
+
+.element
+{
+	margin-top: 3%;
+
+}
+
+.number
+{
+	margin-bottom: 5%;
+
+	font-weight: bold;
+	font-size: 300%;
+}
+
+.textUnderNumber
+{
+	font-size: 200%;
+}
+
+.punkt
+{
+	margin-top: 6%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.myPicture
+{
+	width: 27%;
+	height: 100%;
+}
+
+.mainNumber
+{
+	color: #e8ad38;
+
+	font-size: 700%;
+	font-weight: bold;
+
+	margin-bottom: -3%;
+}
+
+.titleUnnder
+{
+	font-size: 500%;
+	font-weight: bold;
+
+	margin-bottom: 2%;
+}
+
+.element{
+	width: 100%;
+}
+
+.element .btn{
+	width: 100%;	
+}
+
+.aboutMeText
+{
+	font-size: 130%;
+
+	margin-left: 5%;
+
+	text-indent: 5%;
+}
+
+.pictureAndText
+{
+	display: flex;
+}
+
+.icons2
+{
+	width: 60%;
+	height: 10%;
+
+	margin-left: -5%;
 }
