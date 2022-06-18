@@ -224,3 +224,14 @@ body
 
 	margin-left: -5%;
 }
+
+.bold
+{
+	font-weight: bold;
+	font-size: 180%;
+}
+
+.projectsMargins
+{
+	margin-top: 5%;
+}
