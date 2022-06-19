@@ -235,3 +235,55 @@ body
 {
 	margin-top: 5%;
 }
+
+
+
+
+
+.form-inner {
+   margin: 0 10%;
+}
+.form-inner input, .form-inner textarea {
+   display: block;
+   width: 100%;
+   padding: 0 2%;
+   margin-bottom: 2%;
+   /*background: #E9EFF6;*/
+   background: #f7ebd4;
+   line-height: 260%;
+   border-width: 0;
+   border-radius: 20px;
+}
+.form-inner input[type="submit"] {
+   background: #e8ad38;
+   border-bottom: 4px solid #b18122;
+   color: white;
+   font-size: 120%;
+}
+.form-inner textarea {
+   resize: none;
+}
+.form-inner h3 {
+   font-weight: bold;
+   font-size: 190%;
+   color: #595f65;
+}
+
+
+
+
+.SocialIcons
+{
+	display: flex;
+	justify-content: space-around;
+	gap: 15%;
+
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.icon
+{
+	width: 10%;
+	height: 10%;
+}

@@ -72,16 +72,20 @@
       </a>
     </div>
     <div class="element">
+      <a href="#03">
       <button class="btn btn-outline-warning btn-sm">
         <div class="number">03</div>
         <div class="textUnderNumber">Projects</div>
       </button>
+      </a>
     </div>
     <div class="element">
+      <a href="#04">
       <button class="btn btn-outline-warning btn-sm">
         <div class="number">04</div>
         <div class="textUnderNumber">Contacts</div>
       </button>
+      </a>
     </div>
   </div>
   
@@ -117,38 +121,62 @@
     </div>
   </div>
 
-  <div class="punkt">
+  <div class="punkt" id="03">
     <div class="mainNumber">03</div>
       <div class="titleUnnder">Projects</div>
 
-      <div class="pictureAndText">
+    <div class="pictureAndText">
+        <img src="AOS.png" class="icons2 img-thumbnail">
+        <div class="aboutMeText">
+          <div class="bold">Arcade Owner Simulator</div>
+          <div>This is a game where you act as the owner of the arcade. Your task is to place arcade machines, after what visitors will come to your arcade and pay in game currency for playing on the machine. Using in game currency, you can buy new arcade machines and improve your arcade room. This game made with Unity using C#.</div>
+        </div>
+    </div>
+
+    <div class="pictureAndText projectsMargins">
+        <img src="FallingSpikes.png" class="icons2 img-thumbnail">
+        <div class="aboutMeText">
+          <div class="bold">Falling Spikes</div>
+          <div>This project made with Unity engine using C#. This is a game where you control a cube that must dodge falling spikes. During the game, the player can pick up a shield that blocks one spike hit on the cube. The player can also collect coins that can then be spent in the store to buy skins.</div>
+        </div>
+    </div>
+
+    <div class="pictureAndText projectsMargins">
+        <img src="OrganizerPicture.png" class="icons2 img-thumbnail">
+        <div class="aboutMeText">
+          <div class="bold">Organizer</div>
+          <div>Another project made in Rad Studio using C++ is an Organizer. Organizer is an application for scheduling tasks. When the program starts, the user is shown what tasks he has to perform today, and he also sees a list of all tasks for today in the application window. The user can view tasks for other days, add new tasks for any dates, delete existing tasks, and also mark whether he completed the task or not.</div>
+        </div>
+    </div>
+
+    <div class="pictureAndText projectsMargins">
         <img src="hangedMan.png" class="icons2 img-thumbnail">
         <div class="aboutMeText">
           <div class="bold">Hanged Man</div>
-          <div>My first project is the Hanged Man. This is a game in which the user has to guess the word by letters, if the user didn't guess the letter, then the element of the gallows is drawn. If the user has not guessed the word in a certain number of attempts, he loses. This project made in Rad Studio on C++ language.</div>
+          <div>My first project is the Hanged Man. This is a game in which the user has to guess the word by letters, if the user didn't guess the letter, then the element of the gallows is drawn. If the user has not guessed the word in a certain number of attempts, he loses. This project made in Rad Studio using C++ language.</div>
         </div>
     </div>
-
-    <div class="pictureAndText projectsMargins">
-        <img src="OrganizerPicture.png" class="icons2 img-thumbnail">
-        <div class="aboutMeText">
-          <div class="bold">Organizer</div>
-          <div>Another project made in Rad Studio on C++ is an Organizer. Organizer is an application for scheduling tasks. When the program starts, the user is shown what tasks he has to perform today, and he also sees a list of all tasks for today in the application window. The user can view tasks for other days, add new tasks for any dates, delete existing tasks, and also mark whether he completed the task or not.</div>
-        </div>
-    </div>
-
-    <div class="pictureAndText projectsMargins">
-        <img src="OrganizerPicture.png" class="icons2 img-thumbnail">
-        <div class="aboutMeText">
-          <div class="bold">Organizer</div>
-          <div>Another project made in Rad Studio on C++ is an Organizer. Organizer is an application for scheduling tasks. When the program starts, the user is shown what tasks he has to perform today, and he also sees a list of all tasks for today in the application window. The user can view tasks for other days, add new tasks for any dates, delete existing tasks, and also mark whether he completed the task or not.</div>
-        </div>
-    </div>
-
-
   </div>
 
+  <div class="punkt" id="04">
+    <div class="mainNumber">04</div>
+      <div class="titleUnnder">Contacts</div>
+      <div class="form-inner">
+        <form action="sendmail.php" method="POST">
+        <h3>Send me an e-mail</h3>
+        <input type="text" placeholder="Name" id="name" name="name">
+        <input type="email" placeholder="Email" id="email" name="email">
+        <textarea placeholder="Message" rows="3" id="message" name="message"></textarea>
+        <input type="submit" value="Send" onclick="Send();">
+        </form>
+      </div>
 
+      <div class="SocialIcons">
+        <img src="telegram.png" class="icon">
+        <img src="github.png" class="icon">
+        <img src="linkedin.png" class="icon">
+      </div>
+  </div>
 
 
 </body>
