@@ -95,7 +95,7 @@ body
 .AllSkillsList
 {
 	display: flex;
-	align-items: center;
+	
 	margin-top: 5%;
 }
 
@@ -213,6 +213,13 @@ body
 	text-indent: 5%;
 }
 
+.progLang
+{
+	font-size: 130%;
+
+	margin-left: 5%;
+}
+
 .pictureAndText
 {
 	display: flex;
@@ -236,6 +243,7 @@ body
 {
 	font-weight: bold;
 	font-size: 180%;
+	text-indent: 0;
 }
 
 .projectsMargins
