@@ -14,22 +14,9 @@ if (name == "" || email == "" || message == "")
 }
 else
 {
-	let response = await fetch('sendmail.php', {
-		method: 'POST',
-		body: formdata
-	});
-	if (response.ok) {
-		let result = await response.json();
-		alert(result.message);
-		document.querySelector('#name').value = "";	
-		document.querySelector('#email').value = "";
-		document.querySelector('#message').value = "";
-	}else
-	{
-		alert("Error");
-	}
+	window.open('mailto:'+'nikita040604@gmail.com'+'?subject='+name+'&body='+message, '_self');
 
-	
+	window.open('mailto:test@example.com?subject=subject&body=body');
 }
 	
 };
