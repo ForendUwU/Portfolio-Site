@@ -14,7 +14,7 @@ if (name == "" || email == "" || message == "")
 }
 else
 {
-	window.open('mailto:'+'nikita040604@gmail.com'+'?subject='+name+'&body='+message, '_self');
+	window.open('mailto:'+'nikitaperepelov040604@gmail.com'+'?subject='+name+'&body='+message, '_self');
 }
 	
 };
