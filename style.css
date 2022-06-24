@@ -139,11 +139,41 @@ body
 
 .numbers
 {
+	z-index: 10;
 	display: flex;
 	justify-content: space-around;
 	gap: 15px;
 
 	margin: 0 10%;
+
+	overflow: hidden;
+}
+
+.scrollMenu
+{
+	margin-right: 10%;
+	justify-content: space-around;
+	gap: 15px;
+	float: right;
+	display: flex;
+	z-index: 0;
+	top: 0;
+	position: sticky;
+
+
+
+	font-size: 200%;
+
+
+}
+
+.scrollEl
+{
+	margin-left: 12%;
+
+	text-align: center;
+	text-decoration: none;
+	color: #e8ad38;
 }
 
 .element
@@ -154,6 +184,7 @@ body
 
 .number
 {
+
 	margin-bottom: 5%;
 
 	font-weight: bold;
@@ -162,6 +193,8 @@ body
 
 .textUnderNumber
 {
+	top: 0;
+	position: sticky;
 	font-size: 200%;
 }
 
@@ -202,6 +235,7 @@ body
 
 .element .btn{
 	width: 100%;	
+	background-color: white;
 }
 
 .aboutMeText
@@ -291,7 +325,7 @@ body
 {
 	display: flex;
 	justify-content: space-around;
-	gap: 15%;
+	gap: 5%;
 
 	margin-top: 5%;
 	margin-bottom: 5%;
