@@ -76,6 +76,18 @@ body
 	height: 10%;
 }
 
+.geoLoc
+{
+	text-decoration: none;
+	color: black;
+}
+
+.geoLoc:hover
+{
+	text-decoration: none;
+	color: #383838;
+}
+
 .MinskBelarus
 {
 	font-size: 140%;
